@@ -13,6 +13,6 @@ This repository contains codes for image processing of single-molecule mRNAs and
 Please cite the following paper:
 Chen, Jiayi, et al. "mRNA concentration–dependent translation enables rapid and sharp patterning in resource constraint Drosophila embryos." bioRxiv (2026): 2026-06.
 
-# 4. Contact Information
+## 3. Contact Information
 - Jiayi Chen (jiayi.chen@pku.edu.cn)
 - Feng Liu (liufeng@hebut.edu.cn)
