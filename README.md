@@ -9,10 +9,20 @@ This repository contains codes for image processing of single-molecule mRNAs and
 * Add input images in the same path of "Main" file or add the folder containing input images to the search path.
 * Codes are MATLAB files (MATLAB R2025a) and can be run on MATLAB software.
 
-## 2. Reference
+## 2. Citation
 Please cite the following paper:
 Chen, Jiayi, et al. "mRNA concentration–dependent translation enables rapid and sharp patterning in resource constraint Drosophila embryos." bioRxiv (2026): 2026-06.
 
-## 3. Contact Information
+## 3. Reference
+*MultiLayerSpotIdentify.m is modified from spmask.m from 
+Xu, Heng, et al. "Combining protein and mRNA quantification to decipher transcriptional regulation." Nature methods 12.8 (2015): 739-742.
+
+*GetElbowIndex.m is modified from Jona's answer on Stackoverflow
+https://stackoverflow.com/questions/2018178/finding-the-best-trade-off-point-on-a-curve
+
+*parameter filters after PSF fitting are adapted from 
+Xu, Heng, et al. "Combining protein and mRNA quantification to decipher transcriptional regulation." Nature methods 12.8 (2015): 739-742.
+
+## 4. Contact Information
 - Jiayi Chen (jiayi.chen@pku.edu.cn)
 - Feng Liu (liufeng@hebut.edu.cn)
