@@ -1,5 +1,5 @@
 # Single-molecule-Confocal-Images-Processing
-This repository contains codes for image processing of single-molecule mRNAs and corresponding translational signals in 3D embryo volume, related to muanuscript "mRNA concentration–dependent translation enables rapid and sharp patterning in resource-constrained Drosophila embryos"
+This repository contains codes for image processing of single-molecule mRNAs and corresponding translational signals in 3D embryo volume, related to manuscript "mRNA concentration–dependent translation enables rapid and sharp patterning in resource-constrained Drosophila embryos".
 
 
 ## 1. Running the codes
