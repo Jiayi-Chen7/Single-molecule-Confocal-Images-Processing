@@ -20,7 +20,7 @@ Xu, Heng, et al. "Combining protein and mRNA quantification to decipher transcri
 *GetElbowIndex.m is modified from Jona's answer on Stackoverflow
 https://stackoverflow.com/questions/2018178/finding-the-best-trade-off-point-on-a-curve
 
-*parameter filters after PSF fitting are adapted from 
+*parameter filters after PSF fitting are adapted from spfilter.m from
 Xu, Heng, et al. "Combining protein and mRNA quantification to decipher transcriptional regulation." Nature methods 12.8 (2015): 739-742.
 
 ## 4. Contact Information
