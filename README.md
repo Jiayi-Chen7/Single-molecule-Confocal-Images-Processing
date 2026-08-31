@@ -3,7 +3,7 @@ This repository implements a MATLAB-based quantitative imaging pipeline for extr
 
 
 ## 1. Workflow
-**The pipeline is therefore designed to connect subcellular single-molecule measurements with tissue-scale spatial patterning.**
+## **The pipeline is designed to connect subcellular single-molecule measurements with tissue-scale spatial patterning.**
 
 * 3-D image import: DAPI, mRNA, and GFP (translational signals) z-stacks for multichannel spatial analysis.
 * Nuclear segmentation
