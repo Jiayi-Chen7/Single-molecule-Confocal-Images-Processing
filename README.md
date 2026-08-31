@@ -11,11 +11,11 @@ This repository implements a MATLAB-based quantitative imaging pipeline for extr
 * Single-molecule mRNA detection: A preliminary 2-D threshold determined by identify the elbow-point of a curve showing mask count changes following series of tested threshold values. Multi-z consistency filtering, local maxima identification, and morphological refinement.
 * mRNA Gaussian fitting: Fit individual RNA candidates with a 2-D Gaussian PSF model to calculate integrated intensity.
 * mRNA quality control and copy-number calibration: Estimate single-mRNA intensity from a constrained multi-Gaussian intensity model, converting mRNA intensity to absolute counts. 
-* GFP-foci detection: Similar procedure with mRNA identification, except the absolute count conversion.
+* translational signal detection: Similar procedure with mRNA identification, except the absolute count conversion.
 * Physical-coordinate conversion: Convert x, y, and z coordinates into nanometres using the anisotropic imaging scale before spatial-distance calculations.
 * Molecule-to-nucleus assignment: No cell membranes in *Drosophila* embryo at this developmental stage, implement a Voronoi-like segmentation, assinging each RNA and GFP object to its nearest nuclear centroid using 3-D nearest-neighbor analysis.
-* RNA–GFP colocalization: 300-nm distance threshold.
-* Single-molecule translation quantification: Combine GFP intensity with estimated RNA copy number to derive translation-associated measurements for individual molecular objects.
+* RNA–translational signal colocalization: 300-nm distance threshold.
+* Single-molecule translation quantification: Combine translation signal intensity with estimated RNA copy number to derive translation-associated measurements for individual molecular objects.
 * Cross-magnification image registration: Register high-magnification molecular data to whole-embryo-scale reference images and transform molecular and nuclear coordinates accordingly.
 * Anterior–posterior coordinate mapping: Extract embryo geometry and convert registered positions into normalized AP coordinates.
 * Spatial-profile generation: from single-molecule signals to whole-embryo-scale spatial profiles.
